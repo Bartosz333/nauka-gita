@@ -4,6 +4,7 @@
 body {
     margin: 0;
     padding: 0;
+    background: hsl(200, 13%, 18%);
 }
 .splash {
     display: flex;
@@ -16,4 +17,25 @@ body {
     text-align: center;
     font-size: 30px;
     color: azure;
+}
+.work {
+    background-image: url(https://i.postimg.cc/yY4Dk3sj/50-cent.webp);
+    background-size: cover;
+    background-position: center center;
+    height: 600px;
+    width: 100%;
+}
+.work-text {
+    padding: 20px;
+    height: 60vh;
+    width: 35%;
+    position: relative;
+    top: 0;
+    left: 0;
+    text-align: justify;
+}
+.work p {
+    font-size: 18px;
+    color: aliceblue;
+    display: inline-block;
 }

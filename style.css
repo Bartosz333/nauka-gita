@@ -1,0 +1,19 @@
+/* global */
+*, *::befor, *::after {
+    box-sizing: border-box; }
+body {
+    margin: 0;
+    padding: 0;
+}
+.splash {
+    display: flex;
+    background: hsl(200, 13%, 18%);
+    height: 300px;
+}
+.splash-inner {
+    font-family: "Inconsolata", serif;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    color: azure;
+}

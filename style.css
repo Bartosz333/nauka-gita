@@ -32,7 +32,7 @@ body {
     position: relative;
     top: 0;
     left: 0;
-    text-align: justify;
+    text-align: left;
 }
 .work p {
     font-size: 18px;

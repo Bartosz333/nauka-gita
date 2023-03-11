@@ -1,6 +1,1 @@
-npm install --save-dev browser-sync
-node_modules/.bin/browser-sync start --server --files "css/*.css" "*.html"
-
-npm install --save-dev html-validate
-touch .htmlvalidate.json
-npm exec html-validate yourfile.html
+npm exec html-validate *.html
